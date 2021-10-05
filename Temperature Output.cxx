@@ -130,7 +130,7 @@ void getInfoFromFile ( double &tempNumber , bool done , int tempMin , int tempMa
 				tempNumber = tempMin ; //qualling it to the min temp for the chart
 			}
 			//Adding to the look of the chart
-			cout << "\t" << setw(4) << tempNumber ; //Setting the width of the numbers to four so they line up on the right and look nicer
+			cout << "\t" << setw(4) << setprecision(3) << tempNumber ; //Setting the width of the numbers to four so they line up on the right and look nicer
 			cout << ' ' ; //Adding an extra space for looks
 			cout << '|'; //Adding a line for the left part of the chart to add clarity
 			
