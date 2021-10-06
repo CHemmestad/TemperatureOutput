@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 	infile.close ( ) ; //Closing the file
 	
 	//Variables
-	int tempMin = -35 ; //Variable to change the range of the minimum temp for the chart
+	int tempMin = -30 ; //Variable to change the range of the minimum temp for the chart
 	int tempMax = 120 ; //Variable to chang the range of the maximum temp for the chart
 	double tempNumber ; //Used to store the values from the file and use whithin the loop
 	bool done = false ; //Used to tell the loop when to stop (kind of useless)
